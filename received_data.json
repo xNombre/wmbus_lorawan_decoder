@@ -1,0 +1,65 @@
+{
+    "phy_payload": {
+        "mhdr": {
+            "m_type": "UnconfirmedDataUp",
+            "major": "LoRaWANR1"
+        },
+        "mic": [
+            83,
+            169,
+            184,
+            54
+        ],
+        "payload": {
+            "f_port": 10,
+            "fhdr": {
+                "devaddr": "005786fa",
+                "f_cnt": 1,
+                "f_ctrl": {
+                    "ack": false,
+                    "adr": true,
+                    "adr_ack_req": false,
+                    "class_b": false,
+                    "f_opts_len": 2,
+                    "f_pending": false
+                },
+                "f_opts": [
+                    {
+                        "RekeyInd": {
+                            "dev_lorawan_version": "LoRaWAN1_1"
+                        }
+                    }
+                ]
+            },
+            "frm_payload": "110164100805101710e72c47000000ff"
+        }
+    },
+    "rx_info": [
+        {
+            "board": 262,
+            "channel": 6,
+            "context": "VYWJHA==",
+            "crcStatus": "CRC_OK",
+            "gatewayId": "7276ff003904021c",
+            "location": {},
+            "metadata": {
+                "region_common_name": "EU868",
+                "region_config_id": "eu868"
+            },
+            "rssi": -45,
+            "snr": 9.199999809265137,
+            "time": "2023-12-07T15:31:49.433679+00:00",
+            "uplinkId": 531
+        }
+    ],
+    "tx_info": {
+        "frequency": 868300000,
+        "modulation": {
+            "lora": {
+                "bandwidth": 125000,
+                "codeRate": "CR_4_5",
+                "spreadingFactor": 10
+            }
+        }
+    }
+}
